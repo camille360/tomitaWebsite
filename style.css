@@ -49,7 +49,43 @@ p{
 	border: 1px solid #DA291C;
 }
 /*===HOME===*/
+.pp-info-box-title:hover{
+	color: #DA291C !important;
+	text-decoration: underline;
+	cursor: grab;
+}
 /*===CATALOGUE===*/
+/*===PER PRODUCT===*/
+.product_title.entry-title{
+	color: #DA291C !important;
+	font-size: 64px;
+}
+.woocommerce-js ul.products li.product .woocommerce-loop-product__title, .woocommerce-page ul.products li.product .woocommerce-loop-product__title{
+	line-height: 30px;
+	text-align: center !important;
+}
+.woocommerce-page ul.products li.product .woocommerce-loop-product__title:hover, .woof_container_inner h4{
+	color: #DA291C;
+}
+.woocommerce-js .woocommerce-ordering select, .woocommerce-page .woocommerce-ordering select{
+	border: 1px solid black;
+}
+.woocommerce ul.products li.product.desktop-align-left, .woocommerce-page ul.products li.product.desktop-align-left{
+	background-color: #EFEFEF;
+	padding: 20px 10px
+}
+body.archive .ast-archive-description .ast-archive-title, body.archive .ast-archive-description .ast-archive-title *{
+	color: #001196;
+	font-family: "Square 721 Bold" !important;
+}
+.secondary .widget > *:not(.widget-title), .woof_container_inner h4{
+	font-family:"Square 721 BT 1" !important;
+	font-size: 24px !important;
+}
+.woof_autohide_wrapper
+{ 
+	display: none; 
+}
 /*===RETAILERS===*/
 /*===ABOUT TOMITA===*/
 .lowerAchieve{
@@ -63,6 +99,13 @@ p{
 }
 /*===CONTACT US===*/
 
+/*===T&C===*/
+.ast-single-post .entry-content a, .ast-comment-content a:not(.ast-comment-edit-reply-wrap a){
+	color: #000000 !important;
+}
+.ast-single-post .entry-content a:hover, .ast-comment-content a:not(.ast-comment-edit-reply-wrap a):hover{
+	color: #001196 !important;
+}
 /*===========================*/
 /*===MEDIA QUERIES===*/
 /*===========================*/
@@ -135,13 +178,13 @@ p{
 	}
 /*===ABOUT TOMITA===*/
 .lowerAchieve{
-	margin-top: 0px;
+	margin-top: 0px !important;
 }
 .upperAchieve{
-	margin-right: 0px;
+	margin-right: 0px !important;
 }
 .midAchieve{
-	margin-left: 0px;
+	margin-left: 0px !important;
 }
 }
 @media only screen and (min-width : 321px) and (max-width : 480px){
@@ -171,6 +214,16 @@ p{
 	p{
 		font-size: 14px !important;
 	}
+	/*===ABOUT TOMITA===*/
+.lowerAchieve{
+	margin-top: 0px;
+}
+.upperAchieve{
+	margin-right: 0px;
+}
+.midAchieve{
+	margin-left: 0px;
+}
 }
 @media only screen and (max-width: 320px) {
 		/*BODY*/
@@ -199,4 +252,14 @@ p{
 	p{
 		font-size: 12px;
 	}
+	/*===ABOUT TOMITA===*/
+.lowerAchieve{
+	margin-top: 0px;
+}
+.upperAchieve{
+	margin-right: 0px;
+}
+.midAchieve{
+	margin-left: 0px;
+}
 }

@@ -70,25 +70,10 @@ div.featuredProds a img:hover{
 transform: scale(1.1); 
 }
 /*===CATALOGUE===*/
-/*.mainCatalogue{
-border: 3px solid #DA291C;
-background-color: #efefef !important;
-margin-bottom: 10px;
-padding: 5px;
-height: auto;
-overflow: hidden;
-clip-path: polygon(
-0 10%,
-10% 0,
-90% 0,
-100% 10%,
-100% 90%,
-90% 100%,
-10% 100%,
-0% 90%,
-0% 10%
-);
-} */
+div.catBrands{
+margin-bottom: 15px !important;
+}
+
 .mainCatalogue{
 background: #DA291C;
 clip-path: polygon(
@@ -117,13 +102,10 @@ clip-path: polygon(
 0% 90%,
 0% 10%
 );
-padding: 35px !important;
+padding: 30px !important;
 }
-div.catBrands .elementor-container.elementor-column-gap-wider, div.categBrands .elementor-container.elementor-column-gap-narrow{
-column-gap: 10px !important
-}
-div.aboutMV .elementor-container.elementor-column-gap-wider{
-column-gap: 20px !important;
+div.catBrands .elementor-container.elementor-column-gap-wider{
+column-gap: 15px !important
 }
 .elementor-column-gap-wider>.elementor-column>.elementor-element-populated{
 padding: 10px;
@@ -171,6 +153,9 @@ margin-left: -80px;
 }
 .elementor-92 .elementor-element.elementor-element-a982fa1 .wpr-button-prev,.elementor-92 .elementor-element.elementor-element-a982fa1 .wpr-button-next{
 display: none !important;
+}
+div.aboutMV .elementor-container.elementor-column-gap-wider{
+column-gap: 20px !important;
 }
 /*===CONTACT US===*/
 
@@ -228,10 +213,18 @@ width: calc(100% - 20px)!important;
 .elementor-92 .elementor-element.elementor-element-515aa87 > .elementor-widget-container{
 margin: 0px 0px 0px 0px !important;
 }
+/*===CATALOGUE===*/
+div.catBrands{
+margin-bottom: 15px !important;
+}
+.mainCatalogue .elementor-widget-wrap.elementor-element-populated{
+padding: 20px !important;
+}
+.mainCatalogue{
+margin-bottom: 15px;
+}
 }
 /*===========END 1024==========*/
-/* iPad and Tablets */
-@media only screen and (min-width : 768px) and (max-width : 1024px){}
 /* Mobiles */
 /*===========END 1024==========*/
 @media only screen and (max-width: 768px) {
@@ -262,14 +255,13 @@ font-size: 16px !important;
 --spacer-size: 10px !important;
 }
 /*===CATALOGUE===*/
-div.catBrands img{
-width: 80% !important;
-}
-div.catBrands .elementor-container.elementor-column-gap-wider{
-column-gap: 5px !important;
+div.catBrands{
+margin-bottom: 15px !important;
 }
 .mainCatalogue{
-padding: 10px !important;
+margin-bottom: 15px;
+margin-left: 10px;
+margin-right: 10px;
 }
 /*===ABOUT TOMITA===*/
 .lowerAchieve{
@@ -283,7 +275,7 @@ margin-left: 0px !important;
 }
 }
 /*===========END 768==========*/
-@media only screen and (min-width : 321px) and (max-width : 480px){
+@media only screen and (max-width : 480px){
 /*BODY*/
 .elementor-10 .elementor-element.elementor-element-0b616ba .elementor-heading-title, .elementor-10 .elementor-element.elementor-element-e84e0ab .elementor-heading-title,.elementor-widget-heading h1.elementor-heading-title,.elementor-92 .elementor-element.elementor-element-a045804 .elementor-heading-title,.elementor-92 .elementor-element.elementor-element-7dbd00f .elementor-heading-title,.elementor-92 .elementor-element.elementor-element-21f702c .elementor-heading-title{
 font-size: 36px !important; 	/*for title with 60px*/

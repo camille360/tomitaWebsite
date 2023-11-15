@@ -6,410 +6,441 @@
 /*NAVBAR*/
 /*BODY*/
 header.entry-header .entry-title{
-display: none;
-}
-p{
-margin-bottom: 0px !important;
-}
-.elementor a{
-font-family: inherit;
-color: #FFFFFF !important;
-}
-.elementor a:hover{
-color: #EFEFEF;
-}
-/*FOOTER*/
-.footerLinks a{
-padding-bottom: 30px !important;
-}
-/*BUTTONS*/
-#hexBtnWhite{
-display:inline-block;
-position: relative;
-background-color: #fff !important;
-color: #000000 !important;
-font-family: inherit !important;
-text-transform: uppercase;
-padding: 15px 20px;
-text-align: center;
-clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
-}
-#hexBtnRed{
-color: #ffffff !important;
-background-color: #DA291C !important;
-font-family: inherit !important;
-text-transform: uppercase;
-padding: 15px 20px;
-text-align: center;
-clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
-margin-top: 10px;
-border: 1px solid #DA291C;
-}
-#hexBtnCatalogue{
-color: #ffffff !important;
-background-color: #DA291C !important;
-font-family: inherit !important;
-font-size: 14px !important;
-text-transform: uppercase;
-padding: 15px;
-text-align: center;
-clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
-border: 1px solid #DA291C;
-margin-bottom: 10px;
-}
-/*===HOME===*/
-div.featuredProds img{
-transition: transform .2s;
-display:inline-block !important;
-margin-bottom: 10px;
-cursor: pointer;
-/*width: 200px;*/
-height: auto;
-}
-div.featuredProds a img:hover{
-transform: scale(1.1); 
-}
-/*===CATALOGUE===*/
-div.catBrands{
-margin-bottom: 15px !important;
-}
-.mainCatalogue{
-background: #DA291C;
-clip-path: polygon(
-0 10%,
-10% 0,
-90% 0,
-100% 10%,
-100% 90%,
-90% 100%,
-10% 100%,
-0% 90%,
-0% 10%
-);
-padding: 3px;
-}
-.mainCatalogue .elementor-widget-wrap.elementor-element-populated{
-background: #FFFFFF;
-clip-path: polygon(
-0 10%,
-10% 0,
-90% 0,
-100% 10%,
-100% 90%,
-90% 100%,
-10% 100%,
-0% 90%,
-0% 10%
-);
-padding: 30px !important;
-}
-div.catBrands .elementor-container.elementor-column-gap-wider{
-column-gap: 15px !important
-}
-.elementor-column-gap-wider>.elementor-column>.elementor-element-populated{
-padding: 10px;
-}
-/*===PER PRODUCT===*/
-.product_title.entry-title{
-color: #DA291C !important;
-font-size: 64px;
-}
-.woocommerce-js ul.products li.product .woocommerce-loop-product__title, .woocommerce-page ul.products li.product .woocommerce-loop-product__title{
-line-height: 30px;
-text-align: center !important;
-}
-.woocommerce-page ul.products li.product .woocommerce-loop-product__title:hover, .woof_container_inner h4{
-color: #DA291C;
-}
-.woocommerce-js .woocommerce-ordering select, .woocommerce-page .woocommerce-ordering select{
-border: 1px solid black;
-}
-.woocommerce ul.products li.product.desktop-align-left, .woocommerce-page ul.products li.product.desktop-align-left{
-background-color: #EFEFEF;
-padding: 20px 10px
-}
-body.archive .ast-archive-description .ast-archive-title, body.archive .ast-archive-description .ast-archive-title *{
-color: #001196;
-font-family: "Square 721 Bold" !important;
-}
-.secondary .widget > *:not(.widget-title), .woof_container_inner h4{
-font-family:"Square 721 BT 1" !important;
-font-size: 24px !important;
-}
-.woof_autohide_wrapper
-{ 
-display: none; 
-}
-/*===ABOUT TOMITA===*/
-.lowerAchieve{
-margin-top: 100px;
-}
-.upperAchieve{
-margin-right: -80px;
-}
-.midAchieve{
-margin-left: -80px;
-}
-.elementor-92 .elementor-element.elementor-element-a982fa1 .wpr-button-prev,.elementor-92 .elementor-element.elementor-element-a982fa1 .wpr-button-next{
-display: none !important;
-}
-div.aboutMV .elementor-container.elementor-column-gap-wider{
-column-gap: 20px !important;
-}
-.mainTimeline .wpr-story-info-vertical.wpr-data-wrap.aos-init.aos-animate{
-background: #FFFFFF;
-clip-path: polygon(
-0 15%,
-10% 0,
-90% 0,
-100% 15%,
-100% 90%,
-90% 100%,
-10% 100%,
-0% 90%,
-0% 10%
-);
-padding: 30px !important;
-border-radius: 0px !important;
-}
-/*===CONTACT US===*/
-
-/*===T&C===*/
-.ast-single-post .entry-content a, .ast-comment-content a:not(.ast-comment-edit-reply-wrap a){
-color: #000000 !important;
-}
-.ast-single-post .entry-content a:hover, .ast-comment-content a:not(.ast-comment-edit-reply-wrap a):hover{
-color: #001196 !important;
-}
-/*===========================*/
-/*===MEDIA QUERIES===*/
-/*===========================*/
-/* Desktops */
-@media only screen and (min-width: 1023px) and (max-width: 1200px) {
-.elementor-92 .elementor-element.elementor-element-515aa87 > .elementor-widget-container{
-margin: 0px 0px 0px 0px !important;
-}
-}
-/*===========END 1200-1023==========*/
-@media only screen and (max-width: 1024px) {
-/*BODY*/
-.elementor-10 .elementor-element.elementor-element-0b616ba .elementor-heading-title, .elementor-10 .elementor-element.elementor-element-e84e0ab .elementor-heading-title,.elementor-widget-heading h1.elementor-heading-title{
-font-size: 45px !important; 	/*for title with 60px*/
-}
-h1, .elementor-widget-heading h1.elementor-heading-title{
-font-size: 44px;
-line-height: 60px;
-}
-h2, .elementor-widget-heading h3.elementor-heading-title{
-font-size: 36px;
-line-height: 50px;
-}
-h3, .elementor-widget-heading h2.elementor-heading-title{
-font-size: 32px;
-line-height: 44px;
-}
-h4, .elementor-widget-heading h4.elementor-heading-title{
-font-size: 28px;
-line-height: 36px;
-}
-h5, .elementor-widget-heading h5.elementor-heading-title{
-font-size: 19px;
-line-height: 28px;
-}
-#hexBtnRed, #hexBtnWhite{
-padding: 10px 20px;
-margin-top: 0px;
-}
-/*===HOME===*/
-.elementor-element.elementor-arrows-position-outside .swiper, .elementor-element.elementor-arrows-position-outside .swiper-container, .elementor-lightbox.elementor-arrows-position-outside .swiper, .elementor-lightbox.elementor-arrows-position-outside .swiper-container{
-width: calc(100% - 20px)!important;
-}
-/*===ABOUT TOMITA===*/
-.elementor-92 .elementor-element.elementor-element-515aa87 > .elementor-widget-container{
-margin: 0px 0px 0px 0px !important;
-}
-/*===CATALOGUE===*/
-div.catBrands{
-margin-bottom: 15px !important;
-}
-.mainCatalogue .elementor-widget-wrap.elementor-element-populated{
-padding: 20px !important;
-}
-.mainCatalogue{
-margin-bottom: 15px;
-}
-}
-/*===========END 1024==========*/
-/* Mobiles */
-/*===========END 1024==========*/
-@media only screen and (max-width: 768px) {
-/*BODY*/
-.elementor-10 .elementor-element.elementor-element-0b616ba .elementor-heading-title, .elementor-10 .elementor-element.elementor-element-e84e0ab .elementor-heading-title,.elementor-widget-heading h1.elementor-heading-title,.elementor-92 .elementor-element.elementor-element-a045804 .elementor-heading-title,.elementor-92 .elementor-element.elementor-element-7dbd00f .elementor-heading-title,.elementor-92 .elementor-element.elementor-element-21f702c .elementor-heading-title{
-font-size: 44px !important; 	/*for title with 60px*/
-line-height: 50px;
-}
-h1, .elementor-widget-heading h1.elementor-heading-title{
-font-size: 40px !important;
-}
-h2, .elementor-widget-heading h2.elementor-heading-title{
-font-size: 32px !important;
-}
-h3, .elementor-widget-heading h3.elementor-heading-title{
-font-size: 29px !important;
-}
-h4, .elementor-widget-heading h4.elementor-heading-title{
-font-size: 25px !important;
-}
-h5, .elementor-widget-heading h5.elementor-heading-title{
-font-size: 18px !important;
-}
-h6, .elementor-widget-heading h6.elementor-heading-title{
-font-size: 16px !important;
-}
-.elementor-10 .elementor-element.elementor-element-ad0163c{
---spacer-size: 10px !important;
-}
-/*===CATALOGUE===*/
-div.catBrands{
-margin-bottom: 15px !important;
-}
-.mainCatalogue{
-margin-bottom: 15px;
-margin-left: 10px;
-margin-right: 10px;
-}
-/*===ABOUT TOMITA===*/
-.lowerAchieve{
-margin-top: 0px !important;
-}
-.upperAchieve{
-margin-right: 0px !important;
-}
-.midAchieve{
-margin-left: 0px !important;
-}
-.elementor-92 .elementor-element.elementor-element-a982fa1 .wpr-centered .wpr-one-sided-timeline .wpr-right-aligned .wpr-timeline-entry-inner .wpr-data-wrap{
-margin-left: calc(100px/2 + 40px);
-}
-.wpr-wrapper .wpr-title{
-font-size: 21px !important;
-}
-.mainTimeline .wpr-story-info-vertical.wpr-data-wrap.aos-init.aos-animate{
-padding: 10px !important;
-}
-}
-/*===========END 768==========*/
-@media only screen and (max-width : 480px){
-/*BODY*/
-.elementor-10 .elementor-element.elementor-element-0b616ba .elementor-heading-title, .elementor-10 .elementor-element.elementor-element-e84e0ab .elementor-heading-title,.elementor-widget-heading h1.elementor-heading-title,.elementor-92 .elementor-element.elementor-element-a045804 .elementor-heading-title,.elementor-92 .elementor-element.elementor-element-7dbd00f .elementor-heading-title,.elementor-92 .elementor-element.elementor-element-21f702c .elementor-heading-title{
-font-size: 36px !important; 	/*for title with 60px*/
-line-height: 45px !important;
-}
-h1, .elementor-widget-heading h1.elementor-heading-title{
-font-size: 35px !important;
-}
-h2, .elementor-widget-heading h2.elementor-heading-title{
-font-size: 30px !important;
-}
-h3, .elementor-widget-heading h3.elementor-heading-title{
-font-size: 27px !important;
-}
-h4, .elementor-widget-heading h4.elementor-heading-title{
-font-size: 23px !important;
-}
-h5, .elementor-widget-heading h5.elementor-heading-title{
-font-size: 16px !important;
-}
-h6, .elementor-widget-heading h6.elementor-heading-title{
-font-size: 15px !important;
-}
-p{
-font-size: 12px !important;
-}
-#hexBtnRed, #hexBtnWhite{
-padding: 15px;
-margin-top: 0px;
-font-size: 12px !important;
-}
-#hexBtnCatalogue{
-padding: 13px;
-font-size: 11px !important;
-}
-/*===HOME===*/
-.elementor-element.elementor-arrows-position-outside .swiper, .elementor-element.elementor-arrows-position-outside .swiper-container, .elementor-lightbox.elementor-arrows-position-outside .swiper, .elementor-lightbox.elementor-arrows-position-outside .swiper-container{
-width: calc(100% - 20px)!important;
-}
-/*===ABOUT TOMITA===*/
-.lowerAchieve{
-margin-top: 0px;
-}
-.upperAchieve{
-margin-right: 0px;
-}
-.midAchieve{
-margin-left: 0px;
-}
-.wpr-wrapper .wpr-title{
-font-size: 20px !important;
-}
-.elementor-92 .elementor-element.elementor-element-a982fa1 .wpr-centered .wpr-one-sided-timeline .wpr-right-aligned .wpr-timeline-entry-inner .wpr-data-wrap{
-margin-left: 60px !important;
-}
-.mainTimeline .wpr-story-info-vertical.wpr-data-wrap.aos-init.aos-animate{
-padding: 15px !important;
-}
-}
-/*===========END 480-321==========*/
-@media only screen and (max-width: 320px) {
-/*BODY*/
-.elementor-10 .elementor-element.elementor-element-0b616ba .elementor-heading-title, .elementor-10 .elementor-element.elementor-element-e84e0ab .elementor-heading-title,.elementor-widget-heading h1.elementor-heading-title,.elementor-92 .elementor-element.elementor-element-a045804 .elementor-heading-title,.elementor-92 .elementor-element.elementor-element-7dbd00f .elementor-heading-title,.elementor-92 .elementor-element.elementor-element-21f702c .elementor-heading-title{
-font-size: 35px !important; 	/*for title with 60px*/
-line-height: 40px;
-}
-h1, .elementor-widget-heading h1.elementor-heading-title{
-font-size: 33px;
-}
-h2, .elementor-widget-heading h2.elementor-heading-title{
-font-size: 30px;
-}
-h3, .elementor-widget-heading h3.elementor-heading-title{
-font-size: 28px;
-}
-h4, .elementor-widget-heading h4.elementor-heading-title{
-font-size: 22px;
-}
-h5, .elementor-widget-heading h5.elementor-heading-title{
-font-size: 15px;
-}
-h6, .elementor-widget-heading h6.elementor-heading-title{
-font-size: 15px;
-}
-p{
-font-size: 11px;
-}
-#hexBtnRed, #hexBtnWhite, #hexBtnCatalogue{
-padding: 10px;
-margin-top: 0px;
-font-size: 11px !important;
-}
-/*===ABOUT TOMITA===*/
-.lowerAchieve{
-margin-top: 0px;
-}
-.upperAchieve{
-margin-right: 0px;
-}
-.midAchieve{
-margin-left: 0px;
-}
-.wpr-wrapper .wpr-title{
-font-size: 20px !important;
-}
-.elementor-92 .elementor-element.elementor-element-a982fa1 .wpr-centered .wpr-one-sided-timeline .wpr-right-aligned .wpr-timeline-entry-inner .wpr-data-wrap{
-margin-left: 50px !important;
-}
-.mainTimeline .wpr-story-info-vertical.wpr-data-wrap.aos-init.aos-animate{
-padding: 10px !important;
-}
-}
-/*===========END 320==========*/
+    display: none;
+    }
+    p{
+    margin-bottom: 0px !important;
+    }
+    .elementor a{
+    font-family: inherit;
+    color: #FFFFFF !important;
+    }
+    .elementor a:hover{
+    color: #EFEFEF;
+    }
+    /*FOOTER*/
+    .footerLinks a{
+    padding-bottom: 30px !important;
+    }
+    /*BUTTONS*/
+    #hexBtnWhite{
+    display:inline-block;
+    position: relative;
+    background-color: #fff !important;
+    color: #000000 !important;
+    font-family: inherit !important;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    text-align: center;
+    clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+    }
+    #hexBtnRed{
+    color: #ffffff !important;
+    background-color: #DA291C !important;
+    font-family: inherit !important;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    text-align: center;
+    clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+    margin-top: 10px;
+    border: 1px solid #DA291C;
+    }
+    #hexBtnCatalogue{
+    color: #ffffff !important;
+    background-color: #DA291C !important;
+    font-family: inherit !important;
+    font-size: 14px !important;
+    text-transform: uppercase;
+    padding: 15px;
+    text-align: center;
+    clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+    border: 1px solid #DA291C;
+    margin-bottom: 10px;
+    }
+    /*===HOME===*/
+    div.featuredProds img{
+    transition: transform .2s;
+    display:inline-block !important;
+    margin-bottom: 10px;
+    cursor: pointer;
+    /*width: 200px;*/
+    height: auto;
+    }
+    div.featuredProds a img:hover{
+    transform: scale(1.1); 
+    }
+    /*===CATALOGUE===*/
+    div.catBrands{
+    margin-bottom: 15px !important;
+    }
+    .mainCatalogue{
+    background: #DA291C;
+    clip-path: polygon(
+    0 10%,
+    10% 0,
+    90% 0,
+    100% 10%,
+    100% 90%,
+    90% 100%,
+    10% 100%,
+    0% 90%,
+    0% 10%
+    );
+    padding: 3px;
+    }
+    .mainCatalogue .elementor-widget-wrap.elementor-element-populated{
+    background: #FFFFFF;
+    clip-path: polygon(
+    0 10%,
+    10% 0,
+    90% 0,
+    100% 10%,
+    100% 90%,
+    90% 100%,
+    10% 100%,
+    0% 90%,
+    0% 10%
+    );
+    padding: 30px !important;
+    }
+    div.catBrands .elementor-container.elementor-column-gap-wider{
+    column-gap: 15px !important
+    }
+    .elementor-column-gap-wider>.elementor-column>.elementor-element-populated{
+    padding: 10px;
+    }
+    .woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li span.current{
+        background-color: #DA291C;
+    }
+    .woocommerce nav.woocommerce-pagination ul li > span.current, .woocommerce nav.woocommerce-pagination ul li > .page-numbers{
+        border-color: #DA291C !important;
+    }
+    .woocommerce-product-gallery .flex-direction-nav .flex-prev, .woocommerce-product-gallery .flex-direction-nav .flex-next, #ast-vertical-navigation-prev, #ast-vertical-navigation-next{
+        display: none !important;
+        list-style: none !important;
+    }
+    .flex-direction-nav{
+        display: none !important;
+    }
+    /*===PER PRODUCT===*/
+    .product_title.entry-title{
+    color: #DA291C !important;
+    font-size: 42px;
+    text-transform: uppercase !important;
+    }
+    td, th{
+        font-size: 14px !important;
+        padding: 5px !important;
+    }
+    .woocommerce-js ul.products li.product .woocommerce-loop-product__title, .woocommerce-page ul.products li.product .woocommerce-loop-product__title{
+    line-height: 30px;
+    text-align: center !important;
+    }
+    .woocommerce-page ul.products li.product .woocommerce-loop-product__title:hover, .woof_container_inner h4{
+    color: #DA291C;
+    }
+    .woocommerce-js .woocommerce-ordering select, .woocommerce-page .woocommerce-ordering select{
+    border: 1px solid black;
+    }
+    .woocommerce ul.products li.product.desktop-align-left, .woocommerce-page ul.products li.product.desktop-align-left{
+    background-color: #EFEFEF;
+    padding: 20px 10px
+    }
+    body.archive .ast-archive-description .ast-archive-title, body.archive .ast-archive-description .ast-archive-title *{
+    color: #001196;
+    font-family: "Square 721 Bold" !important;
+    }
+    .shopWithActLink{
+        transition: transform .2s !important;
+    }
+    .shopWithActLink:hover{
+        transform: scale(1.13) !important;
+    }
+    /*===SIDEBAR===*/
+    #secondary li{
+        line-height: 20px !important;
+    }
+    .secondary .widget > *:not(.widget-title), .woof_container_inner h4{
+    font-family:"Square 721 BT 1" !important;
+    font-size: 24px !important;
+    }
+    .woof_checkbox_label {
+        font-size: 16px !important;
+    }
+    .woof_autohide_wrapper
+    { 
+    display: none; 
+    }
+    /*===ABOUT TOMITA===*/
+    .lowerAchieve{
+    margin-top: 100px;
+    }
+    .upperAchieve{
+    margin-right: -80px;
+    }
+    .midAchieve{
+    margin-left: -80px;
+    }
+    .elementor-92 .elementor-element.elementor-element-a982fa1 .wpr-button-prev,.elementor-92 .elementor-element.elementor-element-a982fa1 .wpr-button-next{
+    display: none !important;
+    }
+    div.aboutMV .elementor-container.elementor-column-gap-wider{
+    column-gap: 20px !important;
+    }
+    .mainTimeline .wpr-story-info-vertical.wpr-data-wrap.aos-init.aos-animate{
+    background: #FFFFFF;
+    clip-path: polygon(
+    0 15%,
+    10% 0,
+    90% 0,
+    100% 15%,
+    100% 90%,
+    90% 100%,
+    10% 100%,
+    0% 90%,
+    0% 10%
+    );
+    padding: 30px !important;
+    border-radius: 0px !important;
+    }
+    /*===CONTACT US===*/
+    
+    /*===T&C===*/
+    .ast-single-post .entry-content a, .ast-comment-content a:not(.ast-comment-edit-reply-wrap a){
+    color: #000000 !important;
+    }
+    .ast-single-post .entry-content a:hover, .ast-comment-content a:not(.ast-comment-edit-reply-wrap a):hover{
+    color: #001196 !important;
+    }
+    /*===========================*/
+    /*===MEDIA QUERIES===*/
+    /*===========================*/
+    /* Desktops */
+    @media only screen and (min-width: 1023px) and (max-width: 1200px) {
+    .elementor-92 .elementor-element.elementor-element-515aa87 > .elementor-widget-container{
+    margin: 0px 0px 0px 0px !important;
+    }
+    }
+    /*===========END 1200-1023==========*/
+    @media only screen and (max-width: 1024px) {
+    /*BODY*/
+    .elementor-10 .elementor-element.elementor-element-0b616ba .elementor-heading-title, .elementor-10 .elementor-element.elementor-element-e84e0ab .elementor-heading-title,.elementor-widget-heading h1.elementor-heading-title{
+    font-size: 45px !important; 	/*for title with 60px*/
+    }
+    h1, .elementor-widget-heading h1.elementor-heading-title{
+    font-size: 44px;
+    line-height: 60px;
+    }
+    h2, .elementor-widget-heading h3.elementor-heading-title{
+    font-size: 36px;
+    line-height: 50px;
+    }
+    h3, .elementor-widget-heading h2.elementor-heading-title{
+    font-size: 32px;
+    line-height: 44px;
+    }
+    h4, .elementor-widget-heading h4.elementor-heading-title{
+    font-size: 28px;
+    line-height: 36px;
+    }
+    h5, .elementor-widget-heading h5.elementor-heading-title{
+    font-size: 19px;
+    line-height: 28px;
+    }
+    #hexBtnRed, #hexBtnWhite{
+    padding: 10px 20px;
+    margin-top: 0px;
+    }
+    /*===HOME===*/
+    .elementor-element.elementor-arrows-position-outside .swiper, .elementor-element.elementor-arrows-position-outside .swiper-container, .elementor-lightbox.elementor-arrows-position-outside .swiper, .elementor-lightbox.elementor-arrows-position-outside .swiper-container{
+    width: calc(100% - 20px)!important;
+    }
+    /*===ABOUT TOMITA===*/
+    .elementor-92 .elementor-element.elementor-element-515aa87 > .elementor-widget-container{
+    margin: 0px 0px 0px 0px !important;
+    }
+    /*===CATALOGUE===*/
+    div.catBrands{
+    margin-bottom: 15px !important;
+    }
+    .mainCatalogue .elementor-widget-wrap.elementor-element-populated{
+    padding: 20px !important;
+    }
+    .mainCatalogue{
+    margin-bottom: 15px;
+    }
+    }
+    /*===========END 1024==========*/
+    /* Mobiles */
+    /*===========END 1024==========*/
+    @media only screen and (max-width: 768px) {
+    /*BODY*/
+    .elementor-10 .elementor-element.elementor-element-0b616ba .elementor-heading-title, .elementor-10 .elementor-element.elementor-element-e84e0ab .elementor-heading-title,.elementor-widget-heading h1.elementor-heading-title,.elementor-92 .elementor-element.elementor-element-a045804 .elementor-heading-title,.elementor-92 .elementor-element.elementor-element-7dbd00f .elementor-heading-title,.elementor-92 .elementor-element.elementor-element-21f702c .elementor-heading-title{
+    font-size: 44px !important; 	/*for title with 60px*/
+    line-height: 50px;
+    }
+    h1, .elementor-widget-heading h1.elementor-heading-title{
+    font-size: 40px !important;
+    }
+    h2, .elementor-widget-heading h2.elementor-heading-title{
+    font-size: 32px !important;
+    }
+    h3, .elementor-widget-heading h3.elementor-heading-title{
+    font-size: 29px !important;
+    }
+    h4, .elementor-widget-heading h4.elementor-heading-title{
+    font-size: 25px !important;
+    }
+    h5, .elementor-widget-heading h5.elementor-heading-title{
+    font-size: 18px !important;
+    }
+    h6, .elementor-widget-heading h6.elementor-heading-title{
+    font-size: 16px !important;
+    }
+    .elementor-10 .elementor-element.elementor-element-ad0163c{
+    --spacer-size: 10px !important;
+    }
+    /*===CATALOGUE===*/
+    div.catBrands{
+    margin-bottom: 15px !important;
+    }
+    .mainCatalogue{
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    /*===ABOUT TOMITA===*/
+    .lowerAchieve{
+    margin-top: 0px !important;
+    }
+    .upperAchieve{
+    margin-right: 0px !important;
+    }
+    .midAchieve{
+    margin-left: 0px !important;
+    }
+    .elementor-92 .elementor-element.elementor-element-a982fa1 .wpr-centered .wpr-one-sided-timeline .wpr-right-aligned .wpr-timeline-entry-inner .wpr-data-wrap{
+    margin-left: calc(100px/2 + 40px);
+    }
+    .wpr-wrapper .wpr-title{
+    font-size: 21px !important;
+    }
+    .mainTimeline .wpr-story-info-vertical.wpr-data-wrap.aos-init.aos-animate{
+    padding: 10px !important;
+    }
+    }
+    /*===========END 768==========*/
+    @media only screen and (max-width : 480px){
+    /*BODY*/
+    .elementor-10 .elementor-element.elementor-element-0b616ba .elementor-heading-title, .elementor-10 .elementor-element.elementor-element-e84e0ab .elementor-heading-title,.elementor-widget-heading h1.elementor-heading-title,.elementor-92 .elementor-element.elementor-element-a045804 .elementor-heading-title,.elementor-92 .elementor-element.elementor-element-7dbd00f .elementor-heading-title,.elementor-92 .elementor-element.elementor-element-21f702c .elementor-heading-title{
+    font-size: 36px !important; 	/*for title with 60px*/
+    line-height: 45px !important;
+    }
+    h1, .elementor-widget-heading h1.elementor-heading-title{
+    font-size: 35px !important;
+    }
+    h2, .elementor-widget-heading h2.elementor-heading-title{
+    font-size: 30px !important;
+    }
+    h3, .elementor-widget-heading h3.elementor-heading-title{
+    font-size: 27px !important;
+    }
+    h4, .elementor-widget-heading h4.elementor-heading-title{
+    font-size: 23px !important;
+    }
+    h5, .elementor-widget-heading h5.elementor-heading-title{
+    font-size: 16px !important;
+    }
+    h6, .elementor-widget-heading h6.elementor-heading-title{
+    font-size: 15px !important;
+    }
+    p{
+    font-size: 12px !important;
+    }
+    #hexBtnRed, #hexBtnWhite{
+    padding: 15px;
+    margin-top: 0px;
+    font-size: 12px !important;
+    }
+    #hexBtnCatalogue{
+    padding: 13px;
+    font-size: 11px !important;
+    }
+    /*===HOME===*/
+    .elementor-element.elementor-arrows-position-outside .swiper, .elementor-element.elementor-arrows-position-outside .swiper-container, .elementor-lightbox.elementor-arrows-position-outside .swiper, .elementor-lightbox.elementor-arrows-position-outside .swiper-container{
+    width: calc(100% - 20px)!important;
+    }
+    /*===ABOUT TOMITA===*/
+    .lowerAchieve{
+    margin-top: 0px;
+    }
+    .upperAchieve{
+    margin-right: 0px;
+    }
+    .midAchieve{
+    margin-left: 0px;
+    }
+    .wpr-wrapper .wpr-title{
+    font-size: 20px !important;
+    }
+    .elementor-92 .elementor-element.elementor-element-a982fa1 .wpr-centered .wpr-one-sided-timeline .wpr-right-aligned .wpr-timeline-entry-inner .wpr-data-wrap{
+    margin-left: 60px !important;
+    }
+    .mainTimeline .wpr-story-info-vertical.wpr-data-wrap.aos-init.aos-animate{
+    padding: 15px !important;
+    }
+    }
+    /*===========END 480-321==========*/
+    @media only screen and (max-width: 320px) {
+    /*BODY*/
+    .elementor-10 .elementor-element.elementor-element-0b616ba .elementor-heading-title, .elementor-10 .elementor-element.elementor-element-e84e0ab .elementor-heading-title,.elementor-widget-heading h1.elementor-heading-title,.elementor-92 .elementor-element.elementor-element-a045804 .elementor-heading-title,.elementor-92 .elementor-element.elementor-element-7dbd00f .elementor-heading-title,.elementor-92 .elementor-element.elementor-element-21f702c .elementor-heading-title{
+    font-size: 35px !important; 	/*for title with 60px*/
+    line-height: 40px;
+    }
+    h1, .elementor-widget-heading h1.elementor-heading-title{
+    font-size: 33px;
+    }
+    h2, .elementor-widget-heading h2.elementor-heading-title{
+    font-size: 30px;
+    }
+    h3, .elementor-widget-heading h3.elementor-heading-title{
+    font-size: 28px;
+    }
+    h4, .elementor-widget-heading h4.elementor-heading-title{
+    font-size: 22px;
+    }
+    h5, .elementor-widget-heading h5.elementor-heading-title{
+    font-size: 15px;
+    }
+    h6, .elementor-widget-heading h6.elementor-heading-title{
+    font-size: 15px;
+    }
+    p{
+    font-size: 11px;
+    }
+    #hexBtnRed, #hexBtnWhite, #hexBtnCatalogue{
+    padding: 10px;
+    margin-top: 0px;
+    font-size: 11px !important;
+    }
+    /*===ABOUT TOMITA===*/
+    .lowerAchieve{
+    margin-top: 0px;
+    }
+    .upperAchieve{
+    margin-right: 0px;
+    }
+    .midAchieve{
+    margin-left: 0px;
+    }
+    .wpr-wrapper .wpr-title{
+    font-size: 20px !important;
+    }
+    .elementor-92 .elementor-element.elementor-element-a982fa1 .wpr-centered .wpr-one-sided-timeline .wpr-right-aligned .wpr-timeline-entry-inner .wpr-data-wrap{
+    margin-left: 50px !important;
+    }
+    .mainTimeline .wpr-story-info-vertical.wpr-data-wrap.aos-init.aos-animate{
+    padding: 10px !important;
+    }
+    }
+    /*===========END 320==========*/

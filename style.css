@@ -215,7 +215,13 @@ header.entry-header .entry-title{
     /*===========================*/
     /*===MEDIA QUERIES===*/
     /*===========================*/
+    
     /* Desktops */
+    @media only screen and (min-width: 1000px) and (max-width: 1600px) {
+        .astra-shop-filter-button.ast-flyout-filter{
+        display: none !important;
+    }
+    }
     @media only screen and (min-width: 1023px) and (max-width: 1200px) {
     .elementor-92 .elementor-element.elementor-element-515aa87 > .elementor-widget-container{
     margin: 0px 0px 0px 0px !important;
@@ -269,6 +275,12 @@ header.entry-header .entry-title{
     .mainCatalogue{
     margin-bottom: 15px;
     }
+    /*===PER PRODUCT===*/
+    .product_title.entry-title{
+    color: #DA291C !important;
+    font-size: 40px !important;
+    text-transform: uppercase !important;
+    }
     }
     /*===========END 1024==========*/
     /* Mobiles */
@@ -283,10 +295,10 @@ header.entry-header .entry-title{
     font-size: 40px !important;
     }
     h2, .elementor-widget-heading h2.elementor-heading-title{
-    font-size: 32px !important;
+    font-size: 28px !important;
     }
     h3, .elementor-widget-heading h3.elementor-heading-title{
-    font-size: 29px !important;
+    font-size: 26px !important;
     }
     h4, .elementor-widget-heading h4.elementor-heading-title{
     font-size: 25px !important;
@@ -328,6 +340,19 @@ header.entry-header .entry-title{
     .mainTimeline .wpr-story-info-vertical.wpr-data-wrap.aos-init.aos-animate{
     padding: 10px !important;
     }
+    /*===PER PRODUCT===*/
+        .widget-area.secondary{
+            display: none !important;
+        }
+    .product_title.entry-title{
+    color: #DA291C !important;
+    font-size: 36px;
+    text-transform: uppercase !important;
+    }
+    .woocommerce-js ul.products li.product .woocommerce-loop-product__title, .woocommerce-page ul.products li.product .woocommerce-loop-product__title{
+        font-size: 22px !important;
+        line-height: 24px !important;
+        }
     }
     /*===========END 768==========*/
     @media only screen and (max-width : 480px){
@@ -389,6 +414,19 @@ header.entry-header .entry-title{
     .mainTimeline .wpr-story-info-vertical.wpr-data-wrap.aos-init.aos-animate{
     padding: 15px !important;
     }
+    /*===PER PRODUCT===*/
+    .product_title.entry-title{
+    color: #DA291C !important;
+    font-size: 22px !important;
+    text-transform: uppercase !important;
+    }
+    td, th{
+            font-size: 12px !important;
+        }
+    .woocommerce-js ul.products li.product .woocommerce-loop-product__title, .woocommerce-page ul.products li.product .woocommerce-loop-product__title{
+        font-size: 16px !important;
+        line-height: 20px !important;
+        }
     }
     /*===========END 480-321==========*/
     @media only screen and (max-width: 320px) {
@@ -442,5 +480,15 @@ header.entry-header .entry-title{
     .mainTimeline .wpr-story-info-vertical.wpr-data-wrap.aos-init.aos-animate{
     padding: 10px !important;
     }
+    /*===PER PRODUCT===*/
+    .product_title.entry-title{
+    color: #DA291C !important;
+    font-size: 20px !important;
+    text-transform: uppercase !important;
+    }
+    .woocommerce-js ul.products li.product .woocommerce-loop-product__title, .woocommerce-page ul.products li.product .woocommerce-loop-product__title{
+        font-size: 13px !important;
+        
+        }
     }
     /*===========END 320==========*/
